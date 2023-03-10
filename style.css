@@ -44,36 +44,39 @@ ul {
     margin: 0;
     padding: 0;
 }
- .video{
-    max-width: 10000;
+ 
+
+
+.video{
+    max-width: 1350;
     width: 80%;
     height: auto;
-    margin: 30px;
+    margin: 20%;
     display: grid;
-    grid-template-columns: repeat(auto-fill);
+    grid-template-columns:none;
     align-items: center;
-    grid-gap: 10px;
+    grid-gap: 0;
  }
  .grid-item1 {
-    width: 560px;
-    height: 315px;
+    width: 80%;
+    height: auto;
     background:rgb(0, 0, 0);
    
  }
 
 .grille {
-    max-width: 10000;
-    width: 80%;
+    max-width: 1350;
+    width: 75%;
     height: auto;
     margin: 30px;
-    border: 1px solid rgb(0, 0, 0);
+    background:rgb(255, 255, 255);
     display: grid;
-    grid-template-columns: repeat(auto-fill,400);
+    grid-template-columns: repeat(auto-fill,355px);
     justify-content: center;
     grid-gap: 10px;
  }
  .grid-item {
      width: 355px;
      height: 200px;
-     background:rgb(255, 255, 255);
+     background:rgb(0, 0, 0);
  }
